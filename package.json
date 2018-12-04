@@ -1,0 +1,20 @@
+{
+  "name": "hdwallet-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "deploy-rinkeby": "truffle migrate --network rinkeby"
+  },
+  "author": "flockonus",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "4.1.14",
+    "truffle-hdwallet-provider": "dapperlabs/truffle-hdwallet-provider#v1.0.1",
+    "web3": "0.20.6"
+  }
+}
